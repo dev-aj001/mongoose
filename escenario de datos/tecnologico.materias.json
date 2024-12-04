@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842e9"
+  },
+  "clave": "ACF-0901",
+  "nombre": "Cálculo Diferencial",
+  "carrera": "Todas las Carreras",
+  "descripcion": "Cálculo Diferencial descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ACF-0901_Calculo_Diferencial.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842ea"
+  },
+  "clave": "ACA-IS10",
+  "nombre": "Taller de Ética",
+  "carrera": "Todas las Carreras",
+  "descripcion": "Taller de Ética descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ACA-0907_Taller_de_Etica.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842eb"
+  },
+  "clave": "ACC-0906",
+  "nombre": "Fundamentos de Investigación",
+  "carrera": "Sistemas",
+  "descripcion": "Taller de Administración descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/SCH-1024_Taller_de_Administracion.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842ec"
+  },
+  "clave": "SCD-1011",
+  "nombre": "Fundamentos de Programación",
+  "carrera": "Sistemas",
+  "descripcion": "Fundamentos de Programación descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/AED-1285_Fundamentos_de_Programacion.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842ed"
+  },
+  "clave": "AEF-1041",
+  "nombre": "Matemáticas Discretas",
+  "carrera": "Sistemas",
+  "descripcion": "Matemáticas Discretas descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/AEF-1041_Matematicas_Discretas.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842ee"
+  },
+  "clave": "SCH-1024",
+  "nombre": "Taller de Administración",
+  "carrera": "Sistemas",
+  "descripcion": "Taller de Administración descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/SCH-1024_Taller_de_Administracion.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842ef"
+  },
+  "clave": "AED-1286",
+  "nombre": "Programación Orientada a Objetos",
+  "carrera": "Sistemas",
+  "descripcion": "Programación Orientada a Objetos descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/AED-1286_Programacion_Orientada_a_Objetos.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f0"
+  },
+  "clave": "AED-1026",
+  "nombre": "Estructura de Datos",
+  "carrera": "Sistemas",
+  "descripcion": "Estructura de Datos descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/AED-1026_Estructura_de_Datos.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f1"
+  },
+  "clave": "ARE-1015",
+  "nombre": "Fundamentos Teóricos del Diseño I",
+  "carrera": "Arquitectura",
+  "descripcion": "Fundamentos Teóricos del Diseño I descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ARE-1015_Fundamentos_Teoricos_del_Diseno_I.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f2"
+  },
+  "clave": "ARC-1009",
+  "nombre": "Análisis Proyectual",
+  "carrera": "Arquitectura",
+  "descripcion": "Análisis Proyectual descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ARC-1009_Analisis_Proyectual.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f3"
+  },
+  "clave": "ARC-1017",
+  "nombre": "Geometría Descriptiva I",
+  "carrera": "Arquitectura",
+  "descripcion": "Geometría Descriptiva I descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ARC-1017_Geometria_Descriptiva_I.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f4"
+  },
+  "clave": "ARG-1028",
+  "nombre": "Taller de Diseño I",
+  "carrera": "Arquitectura",
+  "descripcion": "Taller de Diseño I descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ARG-1028_Taller_de_Diseno_I.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f5"
+  },
+  "clave": "ARH-1037",
+  "nombre": "Topografía",
+  "carrera": "Arquitectura",
+  "descripcion": "Topografía descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ARH-1037-Topografia.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f6"
+  },
+  "clave": "AEF-1057",
+  "nombre": "Química",
+  "carrera": "Bioquímica",
+  "descripcion": "Química descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/AEF-1057_Quimica.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f7"
+  },
+  "clave": "BQG-1021",
+  "nombre": "Química Analítica",
+  "carrera": "Bioquímica",
+  "descripcion": "Química Analítica descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/BQG-1021_Quimica_Analitica.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f8"
+  },
+  "clave": "BQF-1022",
+  "nombre": "Química Orgánica I",
+  "carrera": "Bioquímica",
+  "descripcion": "Química Orgánica I descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/BQF-1022_Quimica_Organica_I.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842f9"
+  },
+  "clave": "AEO-1012",
+  "nombre": "Dibujo Asistido por Computadora",
+  "carrera": "Bioquímica",
+  "descripcion": "Dibujo Asistido por Computadora descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/AEO-1012_Dibujo_Asistido_por_Computadora.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842fa"
+  },
+  "clave": "BQW-1006",
+  "nombre": "Comportamiento Organizacional",
+  "carrera": "Bioquímica",
+  "descripcion": "Comportamiento Organizacional descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/BQW-1006_Comportamiento_Organizacional.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842fb"
+  },
+  "clave": "ICA-1031",
+  "nombre": "Software de ingeniería civil",
+  "carrera": "Civil",
+  "descripcion": "Software de ingeniería civil descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ICA-1031_SOFTWARE_DE_INGENIERIA_CIVIL.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842fc"
+  },
+  "clave": "ICF-1014",
+  "nombre": "Estática",
+  "carrera": "Civil",
+  "descripcion": "Estática descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ICF-1014_ESTATICA.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842fd"
+  },
+  "clave": "ICC-1023",
+  "nombre": "Materiales y procesos constructivos",
+  "carrera": "Civil",
+  "descripcion": "Materiales y procesos constructivos descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ICC-1023_MATERIALES_Y_PROCESOS_CONSTRUCTIVOS.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842fe"
+  },
+  "clave": "ICT-1033",
+  "nombre": "Topografía",
+  "carrera": "Civil",
+  "descripcion": "Topografía descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ICT-1033_TOPOGRAFIA.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e9731e420ddf9651842ff"
+  },
+  "clave": "ICM-1008",
+  "nombre": "Dibujo en ingeniería civil",
+  "carrera": "Civil",
+  "descripcion": "Dibujo en ingeniería civil descripcion",
+  "plan": "https://st03.tepic.tecnm.mx/files/asignaturas/ICM-1008_DIBUJO_EN_INGENIERIA_CIVIL.pdf"
+},
+{
+  "_id": {
+    "$oid": "674e986c78b7b94ba73cd073"
+  },
+  "clave": "DWD-2301",
+  "nombre": "Bases de Datos NoSQL",
+  "carrera": "Sistemas",
+  "descripcion": "NoSQL descripción",
+  "plan": "https://villahermosa.tecnm.mx/docs/oferta/ingsistemas/especialidades/TECNOLOGIAS_DE_BASE_DE_DATOS/Base_de_Datos_NoSQL.pdf",
+  "__v": 0
+}]

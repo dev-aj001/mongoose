@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "674ea477df4d8cdea5223bb7"
+  },
+  "clave_aula": "CSC2",
+  "edificio": "LC",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos, Escritorios, Sillas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674ea47adf4d8cdea5223bb9"
+  },
+  "clave_aula": "LCSG",
+  "edificio": "LC",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos, Escritorios, Sillas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674ea499df4d8cdea5223bbb"
+  },
+  "clave_aula": "ACISCO",
+  "edificio": "LC",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos,",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674ea4a7df4d8cdea5223bbd"
+  },
+  "clave_aula": "TDM",
+  "edificio": "LC",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos,",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674ea4bedf4d8cdea5223bbf"
+  },
+  "clave_aula": "LCUVP2",
+  "edificio": "ED-UVP",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos,",
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "674ea4d3df4d8cdea5223bc1"
+  },
+  "clave_aula": "MTI1",
+  "edificio": "ED-UVP",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos,",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674ea664cf10603585a50449"
+  },
+  "clave_aula": "LCSO",
+  "edificio": "LC",
+  "gruposAtendidos": [],
+  "descripcionEquipamiento": "Pantalla, Equipos, Escritorio",
+  "__v": 0
+}]

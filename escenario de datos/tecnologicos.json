@@ -1,0 +1,32 @@
+[
+    {
+        "clave_tecnologico": "12DIT0001F",
+        "nombre": "Instituto Tecnológico de Acapulco",
+        "ubicacion": "Guerrero"
+    },
+    {
+        "clave_tecnologico": "14DIT0001D",
+        "nombre": "Instituto Tecnológico de Cd. Guzmán",
+        "ubicacion": "Jalisco"
+    },
+    {
+        "clave_tecnologico": "18DIT0002Z",
+        "nombre": "Instituto Tecnológico de Tepic",
+        "ubicacion": "Nayarit"
+    },
+    {
+        "clave_tecnologico": "18DIT0004X",
+        "nombre": "Instituto Tecnológico de Sur de Nayarit",
+        "ubicacion": "Nayarit"
+    },
+    {
+        "clave_tecnologico": "18DIT0003Y",
+        "nombre": "Instituto Tecnológico de Bahía de Banderas",
+        "ubicacion": "Nayarit"
+    },
+    {
+        "clave_tecnologico": "18DIT0005W",
+        "nombre": "Instituto Tecnológico de Norte de Nayarit",
+        "ubicacion": "Nayarit"
+    }
+]

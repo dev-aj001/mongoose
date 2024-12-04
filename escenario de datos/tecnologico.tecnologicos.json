@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "674e6df4e420ddf965184285"
+  },
+  "clave_tecnologico": "12DIT0001F",
+  "nombre": "Instituto Tecnológico de Acapulco",
+  "ubicacion": "Guerrero"
+},
+{
+  "_id": {
+    "$oid": "674e6df4e420ddf965184286"
+  },
+  "clave_tecnologico": "14DIT0001D",
+  "nombre": "Instituto Tecnológico de Cd. Guzmán",
+  "ubicacion": "Jalisco"
+},
+{
+  "_id": {
+    "$oid": "674e6df4e420ddf965184287"
+  },
+  "clave_tecnologico": "18DIT0002Z",
+  "nombre": "Instituto Tecnológico de Tepic",
+  "ubicacion": "Nayarit"
+},
+{
+  "_id": {
+    "$oid": "674e6df4e420ddf965184288"
+  },
+  "clave_tecnologico": "18DIT0004X",
+  "nombre": "Instituto Tecnológico de Sur de Nayarit",
+  "ubicacion": "Nayarit"
+},
+{
+  "_id": {
+    "$oid": "674e6df4e420ddf965184289"
+  },
+  "clave_tecnologico": "18DIT0003Y",
+  "nombre": "Instituto Tecnológico de Bahía de Banderas",
+  "ubicacion": "Nayarit"
+},
+{
+  "_id": {
+    "$oid": "674e6df4e420ddf96518428a"
+  },
+  "clave_tecnologico": "18DIT0005W",
+  "nombre": "Instituto Tecnológico de Norte de Nayarit",
+  "ubicacion": "Nayarit"
+},
+{
+  "_id": {
+    "$oid": "674e9fbefdec195bf75477b4"
+  },
+  "clave_tecnologico": "09DIT0001S",
+  "nombre": "Instituto Tecnológico de Iztapalapa",
+  "ubicacion": "Ciudad de México",
+  "__v": 0
+}]

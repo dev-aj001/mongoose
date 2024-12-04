@@ -1,0 +1,772 @@
+[
+{
+  "_id": {
+    "$oid": "674e95ccf85699c96f49feb4"
+  },
+  "ID_CURP": "ABCD0101001",
+  "nctrl": "20400706",
+  "nombre": "CABRAL MACHUCA ALEJANDRO AARON",
+  "carrera": "Sistemas",
+  "tecnologico": {
+    "$oid": "674e6df4e420ddf965184287"
+  },
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 0,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": {
+          "$oid": "674d54964362b8fcee62e6c6"
+        },
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": {
+          "$oid": "674d54964362b8fcee62e6c7"
+        },
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": {
+          "$oid": "674d54964362b8fcee62e6c8"
+        },
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": {
+          "$oid": "674d54964362b8fcee62e6c9"
+        },
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": {
+          "$oid": "674d54964362b8fcee62e6ca"
+        },
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": {
+          "$oid": "674d54964362b8fcee62e6cb"
+        },
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842db"
+  },
+  "ID_CURP": "ABCD0101002",
+  "nctrl": "20400707",
+  "nombre": "CABRERA AVILA EDSON ANTONIO",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842dc"
+  },
+  "ID_CURP": "ABCD0101003",
+  "nctrl": "20400727",
+  "nombre": "DÍAZ CANALES JOSÉ LINO",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842dd"
+  },
+  "ID_CURP": "ABCD0101004",
+  "nctrl": "20400734",
+  "nombre": "FLORES FABIAN ISIDRO ANTONIO",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842de"
+  },
+  "ID_CURP": "ABCD0101005",
+  "nctrl": "20400755",
+  "nombre": "HERNANDEZ RODRIGUEZ CESAR URIEL",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842df"
+  },
+  "ID_CURP": "ABCD0101006",
+  "nctrl": "C19400437",
+  "nombre": "IBAÑEZ PARRA ARMANDO JAIR",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e0"
+  },
+  "ID_CURP": "ABCD0101007",
+  "nctrl": "20400787",
+  "nombre": "OLIVARES BERDUSCO KARLA YAZMIN",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e1"
+  },
+  "ID_CURP": "ABCD0101008",
+  "nctrl": "20400799",
+  "nombre": "PLATA CABELLO JOSE MANUEL",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e2"
+  },
+  "ID_CURP": "ABCD0101009",
+  "nctrl": "19400656",
+  "nombre": "RAMIREZ ROMERO GERARDO GABRIEL",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e3"
+  },
+  "ID_CURP": "ABCD0101010",
+  "nctrl": "20400812",
+  "nombre": "RODRIGUEZ GODINEZ ALAN DANIEL",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e4"
+  },
+  "ID_CURP": "ABCD0101011",
+  "nctrl": "20400824",
+  "nombre": "SANDOVAL GARCIA YAEL ALEJANDRO",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e5"
+  },
+  "ID_CURP": "ABCD0101012",
+  "nctrl": "19400679",
+  "nombre": "TORRES REYES JAIME CAMIL",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e6"
+  },
+  "ID_CURP": "ABCD0101013",
+  "nctrl": "20400833",
+  "nombre": "VALDEZ PONCE JOSE ALBERTO",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674e8edde420ddf9651842e7"
+  },
+  "ID_CURP": "ABCD0101014",
+  "nctrl": "20400840",
+  "nombre": "VILLELA CASTAÑEDA EDGAR JOEL",
+  "carrera": "Sistemas",
+  "tecnologico": "674e6df4e420ddf965184287",
+  "expediente": {
+    "promedio": 0,
+    "estado": "Activo",
+    "semestre": 1,
+    "especialidad": "Web",
+    "avanceReticular": [
+      {
+        "materia": "674d54964362b8fcee62e6c6",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c7",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c8",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6c9",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6ca",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      },
+      {
+        "materia": "674d54964362b8fcee62e6cb",
+        "estado": "Pendiente",
+        "calificacion": 0,
+        "evaluacion": "N/A"
+      }
+    ]
+  }
+}]

@@ -1,0 +1,197 @@
+[
+    {
+        "ID_CURP": "ABCD0101001",
+        "nctrl": "20400706",
+        "nombre": "CABRAL MACHUCA ALEJANDRO AARON",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101002",
+        "nctrl": "20400707",
+        "nombre": "CABRERA AVILA EDSON ANTONIO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101003",
+        "nctrl": "20400727",
+        "nombre": "DÍAZ CANALES JOSÉ LINO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101004",
+        "nctrl": "20400734",
+        "nombre": "FLORES FABIAN ISIDRO ANTONIO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101005",
+        "nctrl": "20400755",
+        "nombre": "HERNANDEZ RODRIGUEZ CESAR URIEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101006",
+        "nctrl": "C19400437",
+        "nombre": "IBAÑEZ PARRA ARMANDO JAIR",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101007",
+        "nctrl": "20400787",
+        "nombre": "OLIVARES BERDUSCO KARLA YAZMIN",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101008",
+        "nctrl": "20400799",
+        "nombre": "PLATA CABELLO JOSE MANUEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101009",
+        "nctrl": "19400656",
+        "nombre": "RAMIREZ ROMERO GERARDO GABRIEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101010",
+        "nctrl": "20400812",
+        "nombre": "RODRIGUEZ GODINEZ ALAN DANIEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101011",
+        "nctrl": "20400824",
+        "nombre": "SANDOVAL GARCIA YAEL ALEJANDRO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101012",
+        "nctrl": "19400679",
+        "nombre": "TORRES REYES JAIME CAMIL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101013",
+        "nctrl": "20400833",
+        "nombre": "VALDEZ PONCE JOSE ALBERTO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+            
+        }
+    },
+    {
+        "ID_CURP": "ABCD0101014",
+        "nctrl": "20400840",
+        "nombre": "VILLELA CASTAÑEDA EDGAR JOEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "expediente": {
+            
+            "estado": "Activo",
+            "semestre": 1,
+            "especialidad": "Web"
+        }
+    }
+]

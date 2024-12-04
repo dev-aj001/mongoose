@@ -1,0 +1,152 @@
+[
+    {
+        "ID_RFC": "XAXX010101000",
+        "nombre": "AGUIRRE GONZALEZ ZOILA RAQUEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101001",
+        "nombre": "ALVARADO MARES SONIA",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101002",
+        "nombre": "ARCADIA PEÑA JUAN RAUL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101003",
+        "nombre": "ARJONA VIZCAINO ISRAEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101004",
+        "nombre": "BARRIENTOS LUJAN ROCIO GABRIELA",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101005",
+        "nombre": "CASTAÑEDA MONTAÑO ESTEBAN ALEJANDRO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101006",
+        "nombre": "CEBALLOS MEJIA JOSE DE JESUS",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101007",
+        "nombre": "IBARRA CARLOS FRANCISCO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101008",
+        "nombre": "MONTES CACERES JORGE SAUL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101009",
+        "nombre": "OLIVARES VARGAS GERARDO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101010",
+        "nombre": "PARRA URIAS MA. ELENA",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+
+
+
+    {
+        "ID_RFC": "XAXX010101011",
+        "nombre": "AGUILERA AGUIRRE SELENE",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101012",
+        "nombre": "ALCANTAR MEDINA KRISTHIAN OMAR",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101013",
+        "nombre": "BUENO CORTES MARIA FABIOLA",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101014",
+        "nombre": "ESPINOSA LEDESMA GEORGINA MARIEN",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101015",
+        "nombre": "FONSECA CANTABRANA ANGEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101016",
+        "nombre": "HERNANDEZ CORTEZ MARIA DEL REFUGIO",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101017",
+        "nombre": "HERNANDEZ PINTADO MARCELA RAQUEL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101018",
+        "nombre": "MONTES CACERES JORGE SAUL",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101019",
+        "nombre": "LEDEZMA MORALES AIDE",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    },
+    {
+        "ID_RFC": "XAXX010101020",
+        "nombre": "URESTI MELENDEZ JUANA",
+        "carrera": "Sistemas",
+        "tecnologico": "674e6df4e420ddf965184287",
+        "materiasImpartidas" : []
+    }
+]

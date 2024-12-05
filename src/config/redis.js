@@ -3,13 +3,16 @@
  * 
  * Exporta el cliente a la base de redis.
  * **/
+
+const { REDIS_HOST, REDIS_PORT } = process.env;
+
 const redis = require('redis');
 
 // Configuración de Redis
 const redisClient = redis.createClient({
     socket: {
-        port: 6379,
-        host: 'localhost'
+        port: REDIS_PORT,
+        host: REDIS_HOST
     }
 });
 

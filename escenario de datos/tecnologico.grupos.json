@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "6751beb79b34a54ce945725f"
+  },
+  "clave_grupo": "grp-prg-a",
+  "materia": {
+    "$oid": "674e9731e420ddf9651842ef"
+  },
+  "docente": {
+    "$oid": "674e7355e420ddf9651842c1"
+  },
+  "estudiantes": [
+    {
+      "$oid": "6751bb899b34a54ce9457246"
+    },
+    {
+      "$oid": "6751bb939b34a54ce9457249"
+    },
+    {
+      "$oid": "6751bb9d9b34a54ce945724c"
+    },
+    {
+      "$oid": "6751bba79b34a54ce945724f"
+    }
+  ],
+  "aula": {
+    "$oid": "674ea47adf4d8cdea5223bb9"
+  },
+  "horario": "11-12",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67529c6461343dbc8c448e97"
+  },
+  "clave_grupo": "grp-nsql-a",
+  "materia": {
+    "$oid": "674e986c78b7b94ba73cd073"
+  },
+  "docente": {
+    "$oid": "674e7355e420ddf9651842c8"
+  },
+  "estudiantes": [
+    {
+      "$oid": "6751bb899b34a54ce9457246"
+    },
+    {
+      "$oid": "6751bb939b34a54ce9457249"
+    },
+    {
+      "$oid": "6751bb9d9b34a54ce945724c"
+    },
+    {
+      "$oid": "6751bba79b34a54ce945724f"
+    }
+  ],
+  "aula": {
+    "$oid": "674ea47adf4d8cdea5223bb9"
+  },
+  "horario": "7-8",
+  "__v": 0
+}]

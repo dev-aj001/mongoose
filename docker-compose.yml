@@ -64,7 +64,7 @@ services:
 
 # build node app
   mongoose-replicaset01:
-    build: .
+    # build: .
     image: mongoose-replicaset01
     container_name: mongoose-replicaset01
     depends_on:

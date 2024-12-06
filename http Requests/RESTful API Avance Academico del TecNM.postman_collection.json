@@ -1,0 +1,2483 @@
+{
+	"info": {
+		"_postman_id": "49762ceb-d19c-4708-8186-ff73b710d29e",
+		"name": "RESTful API Avance Academico del TecNM",
+		"description": "# 🚀 Get started here\n\nThis template guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this template**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these request types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT and PATCH requests.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a variable called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Tests\" tab**\n\nTests help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/b5f280a7-4b09-48ec-857f-0a7ed99d7ef8/U2NyZWVuc2hvdCAyMDIzLTAzLTI3IGF0IDkuNDcuMjggUE0ucG5n\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n- Add more scripts in \"Tests\" to verify if the API works as expected and execute flows.\n    \n\n## ℹ️ Resources\n\n[Building requests](https://learning.postman.com/docs/sending-requests/requests/)  \n[Authorizing requests](https://learning.postman.com/docs/sending-requests/authorization/)  \n[Using variables](https://learning.postman.com/docs/sending-requests/variables/)  \n[Managing environments](https://learning.postman.com/docs/sending-requests/managing-environments/)  \n[Writing scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37963725"
+	},
+	"item": [
+		{
+			"name": "Alumnos",
+			"item": [
+				{
+					"name": "Crear nuevo alumno",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"ID_CURP\": \"ABCD0101002\",\n        \"nctrl\": \"20400707\",\n        \"nombre\": \"CABRERA AVILA EDSON ANTONIO\",\n        \"carrera\": \"Sistemas\",\n        \"tecnologico\": \"674e6df4e420ddf965184287\",\n        \"expediente\": {\n            \n            \"estado\": \"Activo\",\n            \"semestre\": 1,\n            \"especialidad\": \"Web\"\n            \n        }\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/alumnos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"alumnos"
+							]
+						},
+						"description": "This request takes random numbers between 0-1000 obtained from the request's response and shows them as a bar chart representing it as imaginary population density for some cities. \n\nOpen the request **Tests** to see how Postman builds the response JSON into the visualizer template.\n\nTry tweaking it by changing to a 'line' or 'pie' chart, then send different data types and visualize them your way!"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener alumnos",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/alumnos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"alumnos"
+							]
+						},
+						"description": "This request takes random numbers between 0-1000 obtained from the request's response and shows them as a bar chart representing it as imaginary population density for some cities. \n\nOpen the request **Tests** to see how Postman builds the response JSON into the visualizer template.\n\nTry tweaking it by changing to a 'line' or 'pie' chart, then send different data types and visualize them your way!"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener alumno",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/alumnos/{{idAlumno}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"alumnos",
+								"{{idAlumno}}"
+							]
+						},
+						"description": "This request takes random numbers between 0-1000 obtained from the request's response and shows them as a bar chart representing it as imaginary population density for some cities. \n\nOpen the request **Tests** to see how Postman builds the response JSON into the visualizer template.\n\nTry tweaking it by changing to a 'line' or 'pie' chart, then send different data types and visualize them your way!"
+					},
+					"response": []
+				},
+				{
+					"name": "Calificar una materia de avance",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"_id\": \"675006db95cc0d4bc3dcad89\",\n    \"calificacion\": 50,\n    \"evaluacion\": \"Ordinaria\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/alumnos/{{idAlumno}}/calificar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"alumnos",
+								"{{idAlumno}}",
+								"calificar"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar alumno",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"CABRAL MACHUCA ALEJANDRO AARON\",\n    \"expediente\": {\n        \"estado\": \"Activo\",\n        \"semestre\": 0,\n        \"especialidad\": \"Web\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/alumnos/{{idAlumno}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"alumnos",
+								"{{idAlumno}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Materias",
+			"item": [
+				{
+					"name": "Crear nueva materia",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clave\": \"DWD-2301\",\n    \"nombre\": \"Bases de Datos NoSQL\",\n    \"carrera\": \"Sistemas\",\n    \"descripcion\": \"Materia 05 de Civil\",\n    \"plan\": \"https://villahermosa.tecnm.mx/docs/oferta/ingsistemas/especialidades/TECNOLOGIAS_DE_BASE_DE_DATOS/Base_de_Datos_NoSQL.pdf\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/materias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"materias"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar materia",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"descripcion\": \"NoSQL descripción\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/materias/{{idMateria}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"materias",
+								"{{idMateria}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar materia",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clave\": \"DWD-2301\",\n    \"nombre\": \"Bases de Datos NoSQL\",\n    \"carrera\": \"Sistemas\",\n    \"descripcion\": \"Materia 05 de Civil\",\n    \"plan\": \"https://villahermosa.tecnm.mx/docs/oferta/ingsistemas/especialidades/TECNOLOGIAS_DE_BASE_DE_DATOS/Base_de_Datos_NoSQL.pdf\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/materias/{{id}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"materias",
+								"{{id}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener materias",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/materias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"materias"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Docentes",
+			"item": [
+				{
+					"name": "Crear nueva docente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ID_RFC\": \"XAXX010101021\",\n    \"nombre\": \"SOTO CASTRO LUIS OBED\",\n    \"carrera\": \"Sistemas\",\n    \"tecnologico\": \"674e6df4e420ddf965184287\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/docentes/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"docentes",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar docente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ID_RFC\": \"XAXX010101021\",\n    \"nombre\": \"SOTO CASTRO LUIS OBED\",\n    \"carrera\": \"Sistemas\",\n    \"tecnologico\": \"674e6df4e420ddf965184287\",\n    \"materiasImpartidas\": [\"daw\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/docentes/{{idDocente}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"docentes",
+								"{{idDocente}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar docente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/docentes/{{idDocente}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"docentes",
+								"{{idDocente}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener docentes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/docentes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"docentes"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener docente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/docentes/{{idDocente}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"docentes",
+								"{{idDocente}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tecnologicos",
+			"item": [
+				{
+					"name": "Crear nuevo tecnologico",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// datos obtenidos de: https://www.tecnm.mx/?vista=Campus\n{\n    \"clave_tecnologico\": \"09DIT0001S\",\n    \"nombre\": \"Instituto Tecnológico de Iztapalapa\",\n    \"ubicacion\": \"Ciudad de México\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/tecnologicos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tecnologicos",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener tecs",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/tecnologicos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tecnologicos",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener tecnologico",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/tecnologicos/{{idTec}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"tecnologicos",
+								"{{idTec}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Aulas",
+			"item": [
+				{
+					"name": "Crear nueva aula",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clave_aula\": \"LCSO\",\n    \"edificio\": \"LC\",\n    \"descripcionEquipamiento\": \"Pantalla, Equipos, Escritorio\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/aulas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"aulas",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener aulas",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/aulas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"aulas"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener aula",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/aulas/{{idAula}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"aulas",
+								"{{idAula}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar aula",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"gruposAtendidos\": [\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/aulas/{{idAula}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"aulas",
+								"{{idAula}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar aula",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"packages": {},
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/aulas/{{idAula}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"aulas",
+								"{{idAula}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Grupos",
+			"item": [
+				{
+					"name": "Crear nuevo grupo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clave_grupo\": \"grp-nsql-a\",\n    \"materia\": \"675006db95cc0d4bc3dcad89\",\n    \"docente\": \"674e7355e420ddf9651842c2\",\n    \"estudiantes\": [\n        \"6751bb899b34a54ce9457246\",\n        \"6751bb939b34a54ce9457249\",\n        \"6751bb9d9b34a54ce945724c\",\n        \"6751bba79b34a54ce945724f\"\n    ],\n    \"aula\": \"674ea47adf4d8cdea5223bb9\",\n    \"horario\": \"11-12\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/grupos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"grupos",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener grupos",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/grupos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"grupos",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener grupo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/grupos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"grupos",
+								""
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar grupo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"gruposAtendidos\": [\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/aulas/{{idAula}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"aulas",
+								"{{idAula}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar grupo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/grupos/{{idGrupo}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"grupos",
+								"{{idGrupo}}"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Queries",
+			"item": [
+				{
+					"name": "Q1. Listar las materias que un alumno ha cursado.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query1/67500c9d216b4365b615c4da",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query1",
+								"67500c9d216b4365b615c4da"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q2. Listar los alumnos que están cursando una materia específica de un grupo específico.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query2/67500e9015f3fde2e98b0856",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query2",
+								"67500e9015f3fde2e98b0856"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q3. Listar las calificaciones de un alumno en todas sus materias cursadas.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query3/67500c9d216b4365b615c4da",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query3",
+								"67500c9d216b4365b615c4da"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q4. Listar los docentes que imparten una materia específica.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query4/674e9731e420ddf9651842e9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query4",
+								"674e9731e420ddf9651842e9"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q5. Listar los alumnos que han obtenido una calificación superior a 90 en una materia específica.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query5/675006db95cc0d4bc3dcad89",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query5",
+								"675006db95cc0d4bc3dcad89"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q6. Listar los grupos que correspondan a una materia específica.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query6/675006db95cc0d4bc3dcad89",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query6",
+								"675006db95cc0d4bc3dcad89"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q7. Listar las materias que cursa un alumno en específico (horario).",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query7/67500d3815f3fde2e98b0849/11-12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query7",
+								"67500d3815f3fde2e98b0849",
+								"11-12"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q8. Listar las materias que faltan por cursar a un alumno en específico.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query8/67500d3815f3fde2e98b0849",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query8",
+								"67500d3815f3fde2e98b0849"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				},
+				{
+					"name": "Q9. Listar las materias que imparte un docente en específico, junto con los alumnos que cursan cada una de las materias.",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Define a handlebars template which renders the response data in a table",
+									"// We define a table and use handlebars `{{#each}}` syntax to map over the response data",
+									"// We can include custom CSS to style the table",
+									"var template = `",
+									"<style type=\"text/css\">",
+									"    table {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse; box-sizing: border-box;}",
+									"    th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;text-align:left;}",
+									"    tr {background-color:#ffffff;}",
+									"    td {font-size:14px;border-width: 1px;padding: 8px !important;border-style: solid;border-color: #87ceeb;}",
+									"    tr:hover {background-color:#e0ffff;}",
+									"</style>",
+									"    ",
+									"<table border=\"1\">",
+									"    <tr>",
+									"        <th>Name</th>",
+									"        <th>Email</th>",
+									"    </tr>",
+									"    ",
+									"    {{#each response.data.contacts}}",
+									"        <tr>",
+									"            <td>{{name}}</td>",
+									"            <td>{{email}}</td>",
+									"        </tr>",
+									"    {{/each}}",
+									"</table>",
+									"`;",
+									"",
+									"// Pass our template and response data to the Postman visualizer to render it in the \"Visualize\" view",
+									"pm.visualizer.set(template, {",
+									"    response: JSON.parse(responseBody)",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/queries/query9/674e7355e420ddf9651842c2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"queries",
+								"query9",
+								"674e7355e420ddf9651842c2"
+							]
+						},
+						"description": "Gets randomly generated names and e-mails from postman-echo and visualizes the response body as a table."
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": "1"
+		},
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000/api"
+		},
+		{
+			"key": "idAlumno",
+			"value": "idAlumno"
+		},
+		{
+			"key": "idMateria",
+			"value": "674e986c78b7b94ba73cd073"
+		},
+		{
+			"key": "idDocente",
+			"value": "674e9c6c1950aaa6373eef4f"
+		},
+		{
+			"key": "idTec",
+			"value": "674e9fbefdec195bf75477b4"
+		},
+		{
+			"key": "idAula",
+			"value": "674ea45cff5c3a57bb6c891d"
+		},
+		{
+			"key": "idGrupo",
+			"value": "674f8d0b9796966576831a7a"
+		}
+	]
+}

@@ -9,12 +9,11 @@ C19400437
 1. [Introducción](#-introducción)
 2. [Link al Repositorio](#-link-al-repositorio)
 3. [Modelo de Datos](#️-escenario-de-datos)
-4. [Consultas Requeridas](#-consultas-requeridas)
-5. [Tabla de endpoints](#-Tabla de endpoints)
-6. [Estructura del Proyecto](#-estructura-del-proyecto)
-7. [Código del Backend](#-códigos-backend)
-8. [Configuración Docker](#-archivos-docker)
-9. [Coleccion de postman](#-Coleccion de postman)
+4. [Tabla de endpoints](#-Tabla-de-endpoints)
+5. [Estructura del Proyecto](#-estructura-del-proyecto)
+6. [Código del Backend](#-códigos-backend)
+7. [Configuración Docker](#-archivos-docker)
+8. [Coleccion de postman](#-Coleccion-de-postman)
 
 
 ## 📋 Introducción
